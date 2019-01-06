@@ -1,0 +1,6 @@
+Task A
+1) Develop a program to create recommendation system to recommend products to a customer on any e-commerce website. Recommendations should be
+based on the products consumer has searched on other sites like Google or Amazon.
+2) You can use any programming language to do this
+3) Create a sample data set for implementing the feature.
+4) Drive information by analysing the data set you have made and present valuable information from it in a presentable format.

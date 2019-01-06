@@ -1,0 +1,14 @@
+UserName,UserId,ItemName,ItemId
+user_1,1,Smartphone,5001
+user_1,1,Power bank,5002
+user_1,1,phone cover,5005
+user_2,2,earphone splitter,5003
+user_2,2,HDMI cable,5004
+user_2,2,phone cover,5005
+user_3,3,Smartphone,5001
+user_3,3,Power bank,5002
+user_4,4,Smartphone,5001
+user_4,4,HDMI cable,5004
+user_4,4,phone cover,5005
+user_5,5,Power bank,5002
+user_5,5,HDMI cable,5004

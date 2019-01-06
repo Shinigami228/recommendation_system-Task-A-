@@ -1,0 +1,9 @@
+I have created a small sample dataset named "file.csv" that contains 4 coloumns basically UserName, UserId, ItemName, ItemId.
+(e.g. user_1 with UserId 1 seem to have bought Smartphone,Power bank and phone cover with ItemId's 5001, 5002, 5005 respectively and so on, the dataset can be seen through file.csv).
+The algorithm that I used is item based recommendation through collaborative filtering. The algorithm creates a recommendation database where we provide an item as input and it comes up with a similar list of items. The call to action is to use the affinity score to build the recommendation database in the backing and keep it refreshed from time to time based on new data.
+
+
+Firstly, I loaded the dataset. The output of which is shown in output_1.png.Then I had built an affinity score between items based on the users who bought them. I have taken every item and finded the affinity of that item to other items, and I have done this by finding out how many customers have bought both these products. The more number of customers who buy both the products, the higher is going to be the affinity score. For example Item one to item two has a high affinity score of .4, whereas 5001 to 5003, there is no affinity at all.
+
+
+Let us say the customer bought a Smartphone(ItemId - 5001). Now we want to find what items we want to recommend to him. So for that in the table displayed in the output I have printed the ItemId's and their scores. And I have printed that in descending order. And those items that are seen in the output in the table are the ones that we want to recommend.The output of which is shown in output_2.png.
